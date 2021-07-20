@@ -69,3 +69,32 @@
     font-size: 0.8rem;
   }
 }
+
+// Responsiveness
+
+@media (max-width: 991px) {
+  .navbar-toggler:focus {
+    outline: none;
+    border: none;
+  }
+
+  .search-box {
+    display: none;
+  }
+
+  .navbar-nav {
+    align-items: unset !important;
+    margin-top: 32px;
+    background-color: var(--primary-color);
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .navbar-collapse {
+    z-index: 10;
+  }
+}
