@@ -1,0 +1,71 @@
+.navbar {
+  background-color: var(--primary-color) !important;
+  height: 108px;
+
+  &-nav {
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  &-brand {
+    position: relative;
+    top: -5px;
+    margin-right: 40px;
+  }
+}
+
+.avatar {
+  height: 58px;
+  width: 58px;
+  border-radius: 50%;
+}
+
+.search-box {
+  position: relative;
+  width: 415px;
+  margin-right: 150px;
+
+  input {
+    padding-left: 32px;
+  }
+
+  img {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+  }
+}
+
+.nav-link {
+  font-size: 15px;
+  color: white !important;
+  cursor: pointer;
+}
+
+.account {
+  align-items: center;
+  .logout {
+    height: 28px;
+    width: 28px;
+    margin-left: 22px;
+  }
+}
+
+.nav-item {
+  position: relative;
+
+  &-counter {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    background-color: #769436;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -9px;
+    font-size: 0.8rem;
+  }
+}
