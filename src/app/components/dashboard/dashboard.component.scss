@@ -398,6 +398,63 @@ sub {
 }
 
 @media (max-width: 425px) {
+  .summary-sections {
+    flex-direction: column;
+
+    &-item {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  }
+
+  .tcenter {
+    text-align: center;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .info {
+    width: 100%;
+
+    &-bar {
+      flex-wrap: unset;
+      flex-direction: column;
+    }
+
+    &-box {
+      margin-right: unset;
+    }
+  }
+
+  .costSD {
+    flex-direction: column;
+
+    .tools {
+      flex-direction: column;
+      width: 100%;
+
+      &-box {
+        margin-bottom: 20px;
+        width: 100%;
+      }
+    }
+
+    .qmark,
+    .minus {
+      display: none;
+    }
+  }
+
+  .table-board {
+    width: 100%;
+  }
+
+  .pagination-box {
+    margin-left: unset;
+  }
+
   .value,
   .csd {
     font-size: 20px;
