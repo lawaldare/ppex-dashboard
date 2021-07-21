@@ -396,3 +396,11 @@ sub {
     margin-left: unset;
   }
 }
+
+@media (max-width: 425px) {
+  .value,
+  .csd {
+    font-size: 20px;
+    margin-bottom: 8px !important;
+  }
+}
