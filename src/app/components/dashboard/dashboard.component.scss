@@ -14,7 +14,8 @@
 }
 
 select option {
-  background: red !important;
+  background: white !important;
+  color: var(--primary-color);
 }
 
 .info {
@@ -457,7 +458,7 @@ sub {
 
   .value,
   .csd {
-    font-size: 20px;
+    font-size: 20px !important;
     margin-bottom: 8px !important;
   }
 }
